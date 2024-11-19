@@ -41,10 +41,8 @@ This project demonstrates the use of Terraform to provision cloud infrastructure
     ```bash
     terraform init
 
-    ```bash
     terraform plan
 
-    ```bash
     terraform apply
 
 3. Destroy resources when done:
