@@ -59,8 +59,6 @@ This project demonstrates the use of Terraform to provision cloud infrastructure
 - Git installed and configured for version control.
 ```
 
-## License
-MIT License
 
 ## Acknowledgments
 - [Terraform Documentation](https://www.terraform.io/docs)
