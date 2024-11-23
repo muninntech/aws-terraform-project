@@ -3,15 +3,6 @@ variable "ami_id" {
   type        = string
 }
 
-variable "instance_type" {
-  description = "The instance type of the EC2 instance"
-  type        = string
-}
-
-variable "name" {
-  description = "The name of the EC2 instance"
-  type        = string
-}
 
 resource "aws_instance" "this" {
   ami           = var.ami_id            # Use the value of ami_id passed to the module
