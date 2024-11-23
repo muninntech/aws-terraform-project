@@ -21,14 +21,14 @@ This project demonstrates the use of Terraform to provision cloud infrastructure
 - **Provider**: AWS configured with the `region` variable.
 
 ## Repository Structure
-.
-├── main.tf               # Root configuration for Terraform
-├── variables.tf          # Input variables for the project
-├── modules/              # Directory for reusable Terraform modules
-│   └── ec2/              # Module for EC2 instance provisioning
-│       ├── main.tf       # EC2 resource configuration
-│       └── variables.tf  # Variables for the EC2 module
-├── README.md             # Project documentation
+.  
+├── main.tf               # Root configuration for Terraform  
+├── variables.tf          # Input variables for the project  
+├── modules/              # Directory for reusable Terraform modules  
+│   └── ec2/              # Module for EC2 instance provisioning  
+│       ├── main.tf       # EC2 resource configuration  
+│       └── variables.tf  # Variables for the EC2 module  
+├── README.md             # Project documentation  
 
 ## How to Use This Project
 1. Clone the repository:
@@ -41,10 +41,8 @@ This project demonstrates the use of Terraform to provision cloud infrastructure
     ```bash
     terraform init
 
-    ```bash
     terraform plan
 
-    ```bash
     terraform apply
 
 3. Destroy resources when done:
@@ -53,16 +51,14 @@ This project demonstrates the use of Terraform to provision cloud infrastructure
     terraform destroy
 
 
-#### **7. Prerequisites**
+### Prerequisites
 
 ```markdown
-## Prerequisites
 - AWS account and credentials configured (using `~/.aws/credentials` or environment variables).
 - Terraform installed (version >= 1.0.0).
 - Git installed and configured for version control.
+```
 
-## License
-MIT License
 
 ## Acknowledgments
 - [Terraform Documentation](https://www.terraform.io/docs)
